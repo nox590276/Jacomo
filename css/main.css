@@ -1,0 +1,365 @@
+
+div#mainvisual_wrap{
+  width: 100%;
+  height: 830px;
+}
+div#mainvisual{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div#mainvisual>p{
+  width: 83.33%;
+  position: absolute;
+  top: 50%;
+  margin-top:-25%;
+  left: 50%;
+  margin-left: -42%;
+}
+div#mainvisual p img{
+  width: 100%;
+}
+div#contents_wrap{
+  width: 100%;
+  height: auto;
+}
+div#goods_wrap{
+  width: 100%;
+  height: 700px;
+}
+div#goods{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+h2.maincontents_title{
+  width: 117px;
+  height: 28px;
+  font: bold 28px "Noto Sans";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+p.maincontents_subtitle{
+  width: 340px;
+  height: 30px;
+  font: normal 16px/30px "Noto Sans KR";
+  position: absolute;
+  top: 5px;
+  left: 120px;
+}
+div#goods ul{
+  width: 100%;
+  height: 360px;
+  position: absolute;
+  top: 115px;
+  left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+div#goods ul li{
+  width: 29.16%;
+  height: 360px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#goods>ul>li>p.goodscontents_text{
+  width: 100%;
+  font: bold 2em "Noto Sans";
+  text-align: center;
+}
+div#goods>ul>li>p.goodscontents_subtext{
+  width: 100%;
+  font: normal 1em "Noto Sans";
+  text-align: center;
+  margin: 10px auto;
+}
+div#goods>ul>li>p.goodscontents_img{
+  width: 100%;
+  margin: 0px auto;
+}
+div#goods>ul>li>p.goodscontents_img img{
+  width: 100%;
+}
+div#goods>ul>li>p#pet_sofa_img{
+  width: 58.85%;
+  margin: 0px auto;
+}
+div#goods>ul>li>p#pet_sofa_img img{
+  width: 100%;
+}
+div#goods button{
+  width: 165px;
+  height: 43px;
+  background-color: #0A1B37;
+  color: white;
+  position: absolute;
+  bottom: 35.71%;
+  left: 54.16%;
+}
+div#goods p.arrow{
+  width: 77px;
+  height: 77px;
+  border: solid 1px #F0E3DD;
+  border-radius: 38px;
+  background-color: #F0E3DD;
+}
+div#goods p#left{
+  position: absolute;
+  top: 255px;
+  left: -30px;
+}
+div#goods p#right{
+  position: absolute;
+  top: 255px;
+  right: -30px;
+}
+div#differentiation_wrap{
+  width: 100%;
+  height: 544px;
+}
+div#differentiation{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div#differentiation p.maincontents_subtitle{
+  position: absolute;
+  top: 10px;
+  left: 250px;
+}
+div#differentiation>ul{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+  justify-items:auto;
+}
+p.differentiation_text{
+  width: 100%;
+  font: bold 2em "Noto Sans KR";
+}
+p.differentiation_boldtext{
+  width: 100%;
+  font: bold 0.87em "Noto Sans KR";
+  margin-top: 10px;
+}
+p.differentiation_subtext{
+  width: 100%;
+  font: normal 0.75em "Noto Sans KR";
+  margin-top: 5px;
+}
+div#notice_wrap{
+  width: 95.83%;
+  height: 200px;
+  background-color: #B79379;
+}
+div#notice{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div#notice h2#notice_title{
+  width: 117px;
+  height: 28px;
+  font: bold 28px "Noto Sans";
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 70px;
+}
+div#notice p#notice_text{
+  width: 100%;
+  height: 30px;
+  font: normal 16px/30px "Noto Sans KR";
+  position: absolute;
+  left: 0px;
+  bottom: 70px;
+  color: white;
+}
+div#notice>button{
+  width: 77px;
+  height: 77px;
+  border: solid 1px #F0E3DD;
+  background-color: #F0E3DD;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -38px;
+  border-radius: 38px;
+}
+div#new_wrap{
+  width: 100%;
+  height: 740px;
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+div#new{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div#new>ul{
+  width: 78.88%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+div#new ul li{
+  width: 32%;
+}
+div#new ul li img{
+  width: 100%;
+}
+div#new_btn{
+  width: 77px;
+  height: 160px;
+  float: left;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+div#new_btn button#up{
+  width: 77px;
+  height: 77px;
+  border: solid 1px #F0E3DD;
+  border-radius: 38px;
+  background-color: #F0E3DD;
+}
+div#new_btn button#down{
+  width: 77px;
+  height: 77px;
+  border: solid 1px #E5D7CE;
+  border-radius: 38px;
+  background-color: #E5D7CE;
+}
+div#cupon_wrap{
+  width: 100%;
+  height: 400px;
+  background-color: #E5D7CE;
+}
+div#cupon_wrap section{
+  width: 100%;
+  height: 34px;
+  background-color: #0A1B37;
+}
+div#cupon{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+div#cupon>p{
+  width: 560px;
+  height: 106px;
+  font: bold 2em "Noto Sans KR";
+  color: #0A1B37;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -280px;
+}
+div#cupon button.cupon_btn{
+  width: 150px;
+  height: 54px;
+  border: solid 1px #0A1B37;
+  border-radius: 27px;
+}
+div#cupon button#login{
+  background-color: #E5D7CE;
+  color: #0A1B37;
+  margin-right: 10px;
+  float: left;
+}
+div#cupon button#membership{
+  background-color: #0A1B37;
+  color:#E5D7CE;
+}
+div#cupon_btn{
+  width: 311px;
+  height: 54px;
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  margin-left: -155px;
+}
+@media screen and (max-width:1200px){
+  div#mainvisual{
+    width: 100%;
+  }
+  div#goods{
+    width: 100%;
+  }
+  div#differentiation{
+    width: 100%;
+  }
+  div#notice{
+    width: 100%;
+  }
+  div#notice>button{
+    right:30px
+  }
+  div#new{
+    width: 100%;
+  }
+  div#cupon{
+    width: 100%;
+  }
+}
+@media screen and (max-width:980px){
+  div#differentiation>ul{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-left: 20px;
+  }
+  div#mainvisual_wrap{
+    height: 500px;
+  }
+  div#goods_wrap{
+    height: 500px;
+  }
+  div#cupon_btn{
+    left: 50%;
+    margin-left: -155px;
+  }
+  div#cupon>p{
+    left: 50%;
+    margin-left: -280px;
+  }
+  div#notice>button{
+    top: 50%;
+    margin-top: -38px;
+  }
+  div#new_wrap{
+    height: 600px;
+    margin-top: 30px;
+  }
+}

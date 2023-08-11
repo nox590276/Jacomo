@@ -1,0 +1,126 @@
+/*header시작*/
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  background-color: #F3F0E9;
+}
+header{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+header h1{
+  width: 18.95%;
+  font-size: 4.8vw;
+  font-family: 'Shadows Into Light', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -32px;
+}
+
+header button{
+  width: 5.51%;
+  position: absolute;
+  right: 3.76%;
+  top: 0px;
+  border: none;
+}
+header button img{
+  width: 100%;
+}
+
+/* 모바일메뉴시작 */
+nav#mobilemenu{
+  width: 50%;
+  height: 550px;
+  background-color: #EEE9DC;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  overflow: scroll;
+  z-index: 10;
+  border-radius: 28px 0px 0px 28px;
+}
+p#mobileMenu_logo{
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+span#mobileclose_btn{
+  font: normal 20px/25px 'Noto Sans KR';
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+ul#mobileLoginMenu{
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ul#mobileLoginMenu>li{
+  width: 20%;
+  height: 60px;
+}
+
+ul#mobileLoginMenu>li>img{
+  width: 40%;
+  padding-left: 30%;
+}
+ul#mobileLoginMenu>li>span{
+  display: block;
+  height: 20px;
+  font: normal 1.8vw/20px 'Noto Sans KR';
+  text-align: center;
+}
+ul#mobile_mainMenu{
+  width: 100%;
+  height: 385px;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+}
+ul#mobile_mainMenu>li{
+  width: 100%;
+  height: 45px;
+  padding-left: 20px;
+  overflow: hidden;
+  border-bottom:solid 1px #E8E2D5;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+ul#mobile_mainMenu>li>a{
+  font: normal 2.68vw/45px 'Noto Sans KR';
+  color: black;
+  opacity: 0.8;
+}
+ul#mobile_mainMenu>li>a.selected{
+font: bold 2.68vw/45px 'Noto Sans KR';
+opacity: 1;
+}
+ul.mobile_subMenu>li{
+  width: 100%;
+  height: 45px;
+  font: normal 2vw/45px 'Noto Sans';
+}
+div#mobile_graylayer {
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.8;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 9;
+}

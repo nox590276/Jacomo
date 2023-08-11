@@ -1,0 +1,458 @@
+main section#visual {
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+main section#visual>div>ul>li{
+  text-align: center;
+}
+
+main section#visual img {
+  width: 100%;
+}
+
+main section#goods {
+  width: 100%;
+  height: 318px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#goods_title_box {
+  width: 100%;
+  height: 20px;
+  margin-left: 5.5%;
+  display: flex;
+  align-items: center;
+}
+
+h2.title {
+  font: bold 4.3vw 'NotoSans KR';
+}
+
+p.sub_title {
+  font: normal 3.22vw 'NotoSans KR';
+}
+
+div#goods_title_box>h2 {
+  margin-right: 10px;
+}
+
+div#section_box {
+  width: 100%;
+  height: 15px;
+  margin: 20px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#section_box ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+div#section_box ul li a {
+  font: normal 3.22vw 'NotoSans KR';
+  color: #ACADAF;
+}
+
+div#sofa_img_box {
+  width: 100%;
+  height: 196px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+div#sofa_img_box ul {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+
+div#sofa_img_box>ul>li {
+  width: 45.02%;
+  height: 210px;
+  background-color: #F9F7F4;
+  border-radius: 7%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+p.img_box {
+  background-color: #EEE9DC;
+  width: 100%;
+  height: 128px;
+  border: solid 1px #EEE9DC;
+  border-radius: 7%;
+}
+
+p.img_box>img {
+  width: 100%;
+  margin: 25px auto;
+}
+
+p.sofa_img_text {
+  margin-top: 8px;
+  margin-left: 5.28%;
+  font: bold 2.15vw 'NatoSans KR';
+}
+
+p#event {
+  font: normal 1.61vw 'NatoSans KR';
+  color: #AAAAAA;
+  margin-left: 5.28%;
+}
+
+p.price {
+  font: bold 2.01vw 'NatoSans KR';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+button {
+  width: 39px;
+  height: 39px;
+}
+
+button#right {
+  background-color: #B79379;
+  border: solid 1px #B79379;
+  border-radius: 38px;
+  position: absolute;
+  top: 150px;
+  right: 3px;
+  color: white;
+}
+
+button#left {
+  background-color: #F0E3DD;
+  border: solid 1px #F0E3DD;
+  border-radius: 38px;
+  position: absolute;
+  top: 150px;
+  left: 3px;
+  color: white;
+}
+
+section#differenation {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#differenation_title_box {
+  width: 100%;
+  height: 20px;
+  margin-left: 5.5%;
+  display: flex;
+  align-items: center;
+}
+
+div#differenation_title_box>h2 {
+  margin-right: 10px;
+}
+
+div#slogan_box {
+  position: relative;
+  width: 87.09%;
+  height: 170px;
+  border-radius: 20px;
+  margin: 20px auto;
+  background: url(/Jacomo/Jacomo_m/images/differenation_slogan.png) no-repeat;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#slogan_box p#slogan_title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 2.46vw;
+  font-family: 'NotoSans KR';
+}
+
+div#slogan_title>ul {
+  width: 38.27%;
+  height: 150px;
+}
+
+.slogan {
+  font: bold 16px 'Noto Serif KR';
+}
+
+.sub_slogan {
+  font: lighter 2.15vw 'NatoSans KR';
+}
+
+#slogan_left {
+  position: absolute;
+  top: 56px;
+  left: 12%;
+}
+
+#slogan_right {
+  position: absolute;
+  top: 90px;
+  right: 12%;
+}
+
+section#notice {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#notice_title_box {
+  width: 100%;
+  height: 20px;
+  margin-left: 5.5%;
+}
+
+div#notice_img img {
+  width: 83.46%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+div#notice_img section#notice_textbox {
+  width: 52.42%;
+  height: auto;
+  background-color: #B79379;
+  border-radius: 14px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+div#preopening {
+  font: bold 4.3vw 'Noto Sans KR';
+  margin-left: 10px;
+}
+
+div#notice_img section#notice_textbox p#store {
+  font: normal 2.15vw 'Noto Sans KR';
+}
+
+div#notice_img section#notice_textbox p#notice_date {
+  font: lighter 1.88vw 'Noto Sans KR';
+}
+
+div#store_textbox {
+  width: 48.71%;
+  height: 18px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+section#news {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#news_title_box {
+  width: 100%;
+  height: 20px;
+  margin-left: 5.5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#news_title_box::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #B79379;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+}
+
+div#news_title_box h2 {
+  margin-right: 10px;
+}
+
+section#new ul {
+  margin-top: 20px;
+}
+
+section#news ul>li {
+  width: 100%;
+  height: auto;
+  padding-left: 5.91%;
+  padding-bottom: 3%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+section#news ul>li#content_point {
+  background-color: #EEE9DC;
+}
+
+p.contents_title {
+  font: bold 2.68vw 'Noto Sans KR';
+}
+
+p.contents_date {
+  font: lighter 1.88vw 'Noto Sans KR';
+}
+
+p.contents_text {
+  font: normal 2.41vw 'Noto Sans KR';
+}
+
+div.img_box {
+  width: 37.63%;
+  height: auto;
+  margin-left: 2%;
+}
+
+div.img_box>img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+div.text_box {
+  width: 52%;
+}
+
+section#cupon {
+  width: 100%;
+  height: 115px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0e3dd+51,207cca+51,0a1b37+51 */
+  background: rgb(240, 227, 221);
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(10, 27, 55, 1) 0px, rgba(10, 27, 55, 1) 12px, rgba(240, 227, 221, 1) 12px, rgba(240, 227, 221, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(10, 27, 55, 1) 0px, rgba(10, 27, 55, 1) 12px, rgba(240, 227, 221, 1) 12px, rgba(240, 227, 221, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(10, 27, 55, 1) 0px, rgba(10, 27, 55, 1) 12px, rgba(240, 227, 221, 1) 12px, rgba(240, 227, 221, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0e3dd', endColorstr='#0a1b37', GradientType=0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#cupon p#cupon_text {
+  width: 30%;
+  height: 60px;
+}
+
+section#cupon p#cupon_text span {
+  width: 100%;
+  height: 36px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  font: bold 2.41vw 'Noto Sans KR';
+  text-align: center;
+  display: block;
+}
+
+section#cupon p#cupon_text button {
+  width: 48%;
+  height: 18px;
+  border-radius: 28px;
+  font: normal 2.41vw 'NotoSans KR';
+}
+button#login{
+  background-color: #F0E3DD;
+  border: solid 1px #0A1B37;
+  color: #0A1B37;
+}
+button#member{
+  border: none;
+  background-color: #0A1B37;
+  color: #F0E3DD;
+}
+footer nav{
+  width: 100%;
+  height: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+footer nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+footer nav ul>li>a{
+  font: normal 1.61vw 'Noto Sans KR';
+  color: #B79379;
+}
+footer nav::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #B79379;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+footer>div#footer_textbox{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+footer>div#footer_textbox>p#text{
+  font: normal 1.61vw 'Noto Sans KR';
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #B79379;
+}
+p.logo{
+  width: 18.95%;
+  font-size: 4.8vw;
+  font-family: 'Shadows Into Light', cursive;
+  padding-bottom: 2%;
+  position: absolute;
+  bottom: 35px;
+  left: 10px;
+}
+p#last_bar{
+  width: 100%;
+  height: 10px;
+  font: normal 1.34vw 'Noto Sans';
+  color: white;
+  background-color: #0A1B37;
+}

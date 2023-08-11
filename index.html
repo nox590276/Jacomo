@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Jacomo</title>
+  <script>
+    var ua = window.navigator.userAgent.toLowerCase();
+    var deviceWidth = null;
+
+    if (/iphone/.test(ua) || /android/.test(ua) || /opera/.test(ua) || /bada/.test(ua) || /ipad/.test(ua) || /windows ce/.test(ua)) {
+      document.location.replace("http://nox590276.dothome.co.kr/Jacomo/Jacomo_m");
+    } else {
+      window.addEventListener('resize', () => {
+        deviceWidth = window.innerWidth;
+
+        if (deviceWidth <= 480) {
+          document.location.replace("http://nox590276.dothome.co.kr/Jacomo/Jacomo_m")
+        }
+      })
+    }
+  </script>
+</head>
+
+<body>
+  <!--바로가기메뉴 시작-->
+  <ul id="skipmenu_list">
+    <li><a href="#" class="hidden">메뉴바로가기</a></li>
+    <li><a href="#" class="hidden">본문바로가기</a></li>
+    <li><a href="#" class="hidden">하단바로가기</a></li>
+  </ul>
+  <!--메인메뉴시작-->
+  <div id="header_wrap">
+    <header>
+      <h1 class="logo"><a href="#">JACOMO</a></h1>
+      <nav id="mainmenu">
+        <h2 class="hidden">메인메뉴</h2>
+        <ul>
+          <li><a href="#">브랜드</a></li>
+          <li><a href="#">전체상품</a></li>
+          <li><a href="#">기획전</a></li>
+          <li><a href="#">고객후기</a></li>
+          <li><a href="#">쇼룸안내</a></li>
+          <li><a href="#">자코모 라운지</a></li>
+          <li><a href="#">쿠폰 이벤트</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--메인메뉴 끝-->
+    <!--메인비쥬얼 시작-->
+    <div id="mainvisual_wrap">
+      <div id="mainvisual">
+        <p><img src="./images/main_visual_rel.png" alt="자코모"></p>
+      </div>
+    </div>
+    <!--메인비쥬얼 끝-->
+    <!--컨텐츠 시작-->
+    <div id="contents_wrap">
+
+      <div id="goods_wrap">
+        <div id="goods">
+          <h2 class="maincontents_title">GOODS</h2>
+          <p class="maincontents_subtitle">30여년의 오랜시간이 올바른 제품 철학을 만듭니다.</p>
+          <p id="left" class="arrow"></p>
+
+          <ul>
+
+            <li>
+              <p class="goodscontents_text">Leather Sofa</p>
+              <p class="goodscontents_subtext">Where I want to stay</p>
+              <p class="goodscontents_img"><img src="./images/leather_sofa.png" alt="가죽소파"></p>
+            </li>
+
+            <li>
+              <p class="goodscontents_text">Fabric Sofa</p>
+              <p class="goodscontents_subtext">Where I want to stay</p>
+              <p class="goodscontents_img"><img src="./images/fabricsofa.png" alt="패브릭소파"></p>
+            </li>
+
+            <li>
+              <p class="goodscontents_text">Pet Sofa</p>
+              <p class="goodscontents_subtext">Where I want to stay</p>
+              <p id="pet_sofa_img"><img src="./images/pet_sofa.png" alt="애견쇼파"></p>
+            </li>
+
+          </ul>
+
+          <p id="right" class="arrow"></p>
+          <button>MORE VIEW___</button>
+        </div>
+      </div>
+
+      <div id="differentiation_wrap">
+        <div id="differentiation">
+          <h2 class="maincontents_title">DIFFERENTIATION</h2>
+          <p class="maincontents_subtitle">가치로운것은 더 가치롭게,</p>
+          <ul>
+            <li>
+              <p class="differentiation_text">Slogan</p>
+              <ul>
+                <li>
+                  <p class="differentiation_boldtext">다르게 만듭니다</p>
+                  <p class="differentiation_subtext">30여년의 깊이가 만든 올바른 제품철학</p>
+                </li>
+                <li>
+                  <p class="differentiation_boldtext">바르게 만듭니다</p>
+                  <p class="differentiation_subtext">엄선된 좋은 소재와 사려깊은 정성</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p class="differentiation_text">Marterials</p>
+              <ul>
+                <li>
+                  <p class="differentiation_boldtext">프리미엄 가죽</p>
+                  <p class="differentiation_subtext">자체 R&D팀의 독자적인 기술로 구현된 <br>프리미엄 가죽</p>
+                </li>
+                <li>
+                  <p class="differentiation_boldtext">기능성 패브릭</p>
+                  <p class="differentiation_subtext">고급스러운 감성과 따듯함이 묻어난 프리미엄 <br>패브릭</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p class="differentiation_text">Research</p>
+              <ul>
+                <li>
+                  <p class="differentiation_boldtext">오래된 새로움</p>
+                  <p class="differentiation_subtext">유서 깊은 이태리의 전통으로부터 새로움을<br>배웁니다.</p>
+                </li>
+                <li>
+                  <p class="differentiation_boldtext">과거가 미래다</p>
+                  <p class="differentiation_subtext">사려깊은 과거가 꿈 많은 미래를 양성합니다.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p class="differentiation_text">Academy</p>
+              <ul>
+                <li>
+                  <p class="differentiation_boldtext">깊은 과거가 넓은 미래를 양성한다</p>
+                  <p class="differentiation_subtext">국내 최초로 인재 양성을 위한 소파 아카데미를<br>설립하다.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="notice_wrap">
+        <div id="notice">
+          <h2 id="notice_title">NOTICE</h2>
+          <p id="notice_text">JACOMO PARTY:자코모 창립기념 특별 해택을 진행합니다.</p>
+          <button></button>
+        </div>
+      </div>
+
+      <div id="new_wrap">
+        <div id="new">
+          <h2 class="maincontents_title">NEWS</h2>
+          <p class="maincontents_subtitle">자코모의 새로운 소식을 전합니다.</p>
+          <div id="new_btn">
+            <button id="up"></button>
+            <button id="down"></button>
+          </div>
+          <ul>
+            <li><img src="./images/main_new_01_2.png" alt="자코모생일포스터"></li>
+            <li><img src="./images/main_new_02_2.png" alt="화요일할인"></li>
+            <li><img src="./images/new_main_drama.png" alt="드라마속 소파"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="cupon_wrap">
+        <section></section>
+        <div id="cupon">
+          <p>내가 받을 수 있는<br>
+            이달의 쿠폰이 궁금하다면?</p>
+          <div id="cupon_btn">
+            <button id="login" class="cupon_btn">로그인</button>
+            <button id="membership" class="cupon_btn">회원가입</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--컨텐츠 끝-->
+    <!--하단 시작-->
+    <div id="footer_wrap">
+      <footer>
+        <nav id="footermenu">
+          <h2 class="hidden">하단메뉴</h2>
+          <ul id="footermenu_list">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">광고/제휴문의</a></li>
+            <li><a href="#">개인결제창</a></li>
+            <li><a href="#">소파케어서비스</a></li>
+            <li><a href="#">샘플신청</a></li>
+            <li><a href="#">무의자할부안내</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <div id="footer_inform">
+        <h1 class="logo" id="footerlogo">JACOMO</h1>
+        <p>경기도 남양주시 오남읍 진건오남로929번길 8 (경기도 남양주시 오남읍 양지리 699-5)<br>
+          법인명(상호) :(주)자코모대표 :박경분사업자등록번호 :132-81-62165 사업자번호조회통신판매업신고번호 :2020-진접오남-0219<br>
+          개인정보보호책임자 :박유신대표번호 :1588-6007팩스번호 :031-527-8618</p>
+      </div>
+      <div id="footer_last">
+        <p id="footer_text">Copyright 2023. JAKOMO All Rights Reserved.</p>
+        <p id="footer_subnav">이용약관 | 이용안내 | 개인정보처리방침</p>
+      </div>
+    </div>
+    <!--하단 끝-->
+  </div>
+</body>
+
+</html>
