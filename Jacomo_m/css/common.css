@@ -24,11 +24,12 @@ header h1{
 }
 
 header button{
-  width: 5.51%;
+  width: 10%;
   position: absolute;
   right: 3.76%;
-  top: 0px;
+  top: 30px;
   border: none;
+  background:none;
 }
 header button img{
   width: 100%;
