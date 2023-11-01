@@ -56,7 +56,7 @@ CSS Media Queries를 활용하여 웹사이트가 다양한 스크린 사이즈�
 ## 👀 서비스 화면
 <img width="1201" alt="스크린샷 2023-08-29 오후 12 16 03" src="https://github.com/nox590276/Jacomo/assets/137986145/43e2ec33-f5f3-4bf9-ac4d-b17cca9ac838">
 웹사이트 메인
-<div width="1200">
+<div width="1200" backgroundColor="red">
   <p float="left">
     <img width="400" alt="KakaoTalk_Photo_2023-08-29-12-14-52 002 (1)"     
     src="https://github.com/nox590276/Jacomo/assets/137986145/d1e3d69f-901b-4b42-a0d8-fa590e3fa316">
