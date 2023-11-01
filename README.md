@@ -60,6 +60,6 @@ CSS Media Queries를 활용하여 웹사이트가 다양한 스크린 사이즈�
  <img width="500" alt="KakaoTalk_Photo_2023-08-29-12-14-52 002 (1)"     
     src="https://github.com/nox590276/Jacomo/assets/137986145/d1e3d69f-901b-4b42-a0d8-fa590e3fa316">   <img width="500" alt="KakaoTalk_Photo_2023-08-29-12-14-51 001 (1)"
     src="https://github.com/nox590276/Jacomo/assets/137986145/8e496721-9e54-46c1-976e-b5b469dd9306">
-<p width="500" text-align="center" float="left">모바일 메인화면</p> <p width="500" text-align="center" float="right">모바일 햄버거메뉴</p>
+<p width="500" text-align=center float=left>모바일 메인화면</p> <p width="500" text-align=center float=right>모바일 햄버거메뉴</p>
 
 
