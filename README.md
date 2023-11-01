@@ -2,7 +2,6 @@
 
 한 줄 소개 | 자코모 가구회사의 리디자인 반응형 적응형 중점 프로젝트
 
----
 
 **Front-End Developer**
 
@@ -12,7 +11,6 @@
 
 WebSite | https://jacomocompany.netlify.app/
 
----
 
 ## 📜 서비스 내용
 
@@ -29,7 +27,7 @@ WebSite | https://jacomocompany.netlify.app/
 
 ### **Flex와 Grid를 활용한 레이아웃**
 
- ****페이지의 주요 구성 요소들은 CSS 3.0의 Flexbox와 Grid 레이아웃 시스템을 사용하여 구축되었습니다. 이를 통해 각 컴포넌트가 다양한 화면 크기와 장치에 유연하게 대응할 수 있도록 만들었습니다.
+페이지의 주요 구성 요소들은 CSS 3.0의 Flexbox와 Grid 레이아웃 시스템을 사용하여 구축되었습니다. 이를 통해 각 컴포넌트가 다양한 화면 크기와 장치에 유연하게 대응할 수 있도록 만들었습니다.
 
 ### 반응형
 
@@ -57,13 +55,7 @@ CSS Media Queries를 활용하여 웹사이트가 다양한 스크린 사이즈�
 
 ## 👀 서비스 화면
 
-![스크린샷 2023-08-29 오후 12.16.03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2002b83-746e-424e-b2ac-14e37d8cd8a5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-08-29_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_12.16.03.png)
-
 웹사이트 메인
-
-![KakaoTalk_Photo_2023-08-29-12-14-52 002.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab6c6349-2279-4524-af32-48fa0aee374e/KakaoTalk_Photo_2023-08-29-12-14-52_002.jpeg)
-
-![KakaoTalk_Photo_2023-08-29-12-14-51 001.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4909985-e44e-4c72-a4b6-b8a996c35881/KakaoTalk_Photo_2023-08-29-12-14-51_001.jpeg)
 
 모바일 햄버거메뉴
 
